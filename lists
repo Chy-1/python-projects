@@ -1,0 +1,7 @@
+l1 = [1,2,3,4]
+l2 = ['a', 'b', 'c', 'd']
+
+def listsum(x,y):
+    return x+y
+
+listsum(l1, l2)
