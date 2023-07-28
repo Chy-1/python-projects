@@ -1,0 +1,11 @@
+dict1 = {'Train':'Railway track', 'Aeroplane':'Air strip', 'Bus':'Road'}
+
+dict1['Ship'] = 'Water'  # Adding a key-value pair
+
+del dict1['Aeroplane']   # Removing a key-value pair
+
+dict1['Ship'] = 'Water bodies'   # Updating a key-value pair
+
+print(dict1['Train'])    # Checking if the key Train exists in the dictionary
+
+print(dict1.keys())      # Printing all keys in the dictionary
